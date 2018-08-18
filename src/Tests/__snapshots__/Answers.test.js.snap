@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Answers component an array of answers renders correctly 1`] = `
+<div>
+  <form>
+    <ul>
+      <li>
+        <button
+          className="answers btn"
+          onClick={[Function]}
+          value="A state management tool"
+        >
+          A state management tool
+        </button>
+      </li>
+      <li>
+        <button
+          className="answers btn"
+          onClick={[Function]}
+          value="A tablet for indeigestion"
+        >
+          A tablet for indeigestion
+        </button>
+      </li>
+      <li>
+        <button
+          className="answers btn"
+          onClick={[Function]}
+          value="The newest version of JavaScipt"
+        >
+          The newest version of JavaScipt
+        </button>
+      </li>
+      <li>
+        <button
+          className="answers btn"
+          onClick={[Function]}
+          value="Nessecary for a React project"
+        >
+          Nessecary for a React project
+        </button>
+      </li>
+    </ul>
+  </form>
+</div>
+`;

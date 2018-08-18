@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quiz component Quiz renders a question and an array of answers 1`] = `
+<div
+  className="question"
+>
+  <div>
+    <h1>
+      What is Redux?
+    </h1>
+  </div>
+  <div>
+    <form>
+      <ul>
+        <li>
+          <button
+            className="answers btn"
+            onClick={[Function]}
+            value="A state management tool"
+          >
+            A state management tool
+          </button>
+        </li>
+        <li>
+          <button
+            className="answers btn"
+            onClick={[Function]}
+            value="A tablet for indigestion"
+          >
+            A tablet for indigestion
+          </button>
+        </li>
+        <li>
+          <button
+            className="answers btn"
+            onClick={[Function]}
+            value="The newest version of JavaScipt"
+          >
+            The newest version of JavaScipt
+          </button>
+        </li>
+        <li>
+          <button
+            className="answers btn"
+            onClick={[Function]}
+            value="Nessecary for a React project"
+          >
+            Nessecary for a React project
+          </button>
+        </li>
+      </ul>
+    </form>
+  </div>
+</div>
+`;
