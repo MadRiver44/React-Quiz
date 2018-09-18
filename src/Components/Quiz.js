@@ -37,14 +37,11 @@ class Quiz extends Component {
     this.state = {
       questions: [...questions],
       answers: [...results], // needs to be an array of arrays of answers
-      currentQuestion: '',
-      correctAnswer: '',
       correctAnswerCount: 0,
       almostRightCount: 0,
       wayOffCount: 0,
       deadWrongCount: 0,
       score: [],
-      unansweredQuestions: [],
       scoreTally: 0,
       count: 0,
       missedQuestion: false,
@@ -132,7 +129,6 @@ class Quiz extends Component {
     const {
       questions,
       answers,
-      correctAnswer,
       count,
       correctAnswerCount,
       score,
@@ -176,7 +172,6 @@ class Quiz extends Component {
           <button className="btn btn-right" onClick={this.handleChangeAnswerRight}>
             {'->'}
           </button>
-
         </div>
       </div>
     ) : (
